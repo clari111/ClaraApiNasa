@@ -1,20 +1,87 @@
 img{
     width: 200px;
+    border-radius: 1.3rem;
+    
+}
+
+a{
+    color: rgb(48, 45, 45);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+
+#logo{
+    padding: 10%;
+   
 }
 
 #contenedor{
-    background-color: rgb(118, 131, 173);
+    background-color: rgba(10, 27, 85, 1);
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     padding: 2%;
+   
     width: 700px;
     border-radius: 1.3rem;
     flex-wrap: wrap;
+box-shadow: 0px 1px 10px rgb(165, 9, 9);
+margin-bottom: 8px;
+}
+#contenedor2{
+background-color: rgb(198, 205, 211);
+border-radius: 1.3rem;
+box-shadow: 0px 1px 10px rgb(165, 9, 9);
+margin: 20px;
+padding: 5%;
+font-size: medium;
+font-display: center;
+image-orientation: center;
+display: flex;
+flex-direction: column;
 }
 
-body{
+
+#contenedor3{
+ background-color: rgba(10, 27, 85, 1);
     display: flex;
     justify-content: center;
-    background-color: rgb(225, 225, 195);
+    padding: 2%;
+    margin: 10%;
+    width: 700px;
+    border-radius: 1.3rem;
+    flex-wrap: wrap;
+box-shadow: 0px 1px 10px rgb(165, 9, 9);
 
+
+
+
+}
+body{
+    
+    background-color: rgb(145, 145, 144);
+    align-items: center;
+    display: flex;
+flex-direction: column;
+}
+
+p{
+    color: rgb(189, 184, 184);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: antiquewhite;
+}
+
+h3{
+    color: brown;
+  font-family: fantasy;
+}
+
+
+h2{
+    color: rgb(102, 89, 89);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }

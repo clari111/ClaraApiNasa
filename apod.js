@@ -16,8 +16,18 @@ fetch("https://api.nasa.gov/planetary/apod?api_key=4jmR71o3hrbJsbrjwZmqU2l3mUCEW
 */
 // varias imagenes
 
+
+
+
+
+
+
+
+
+
+
 // Utilizamos el enlace con la cantidad de imágenes a mostrar
-fetch("https://api.nasa.gov/planetary/apod?api_key=4jmR71o3hrbJsbrjwZmqU2l3mUCEW98eglp9T1el&count=3")
+fetch("https://api.nasa.gov/planetary/apod?api_key=4jmR71o3hrbJsbrjwZmqU2l3mUCEW98eglp9T1el&count=4")
   .then(res => res.json())
   .then(imagenes => {
     // Guardamos el div contenedor
